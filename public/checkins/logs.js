@@ -11,7 +11,7 @@ async function getData() {
     }
 }
 
-const map = L.map('map').setView([0, 0], 1);
+const map = L.map('map').setView([20, 0], 2);
 const attribution = '&copy: <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
 const tileUrl = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
 const tiles = L.tileLayer(tileUrl, { attribution });

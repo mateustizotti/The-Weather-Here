@@ -44,21 +44,18 @@ body{
     font-family:"Lato",Sans-serif;
   }
   
-  .box{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform : translate(-50% ,-50%);
+  .box-back{
+    /*transform: translate(-46%, 150%);*/
   }
   
   .btn:link,
   .btn:visited{
     text-decoration: none;
     text-transform:uppercase;
-    position:relative;
-    top:0;
-    left:0;
-    padding:20px 40px;
+    position: absolute;
+    top:20px;
+    left:10px;
+    padding:10px 20px;
     border-radius:100px;
     display:inline-block;
     transition: all .5s;

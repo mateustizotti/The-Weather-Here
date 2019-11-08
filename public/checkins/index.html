@@ -11,16 +11,19 @@
     <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
         integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
         crossorigin=""></script>
-    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>The Weather Here</title>
 </head>
 
 <body>
-    <h1>The Weather Here</h1>
-    <div>
-        <a href="/">check in</a> | <a href="/checkins">view checkins</a>
+    <div class="box-back">
+        <a href="/" class="btn btn-white btn-animation-1">< Back</a>
     </div>
+    <h1 id="header">The Weather Here</h1>
     <div id="map"></div>
+    <div id="copy2">
+        <a>&copy;Mateus Tizotti</a>
+    </div>
     <script src="logs.js"></script>
 </body>
 
